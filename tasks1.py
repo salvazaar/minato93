@@ -59,12 +59,54 @@
 #принадлежит (зима, весна, лето или осень).
 
 
-number_of_month = int(input('Введите порядковый номер месяца '))
-if number_of_month == 12 or 1 or 2:
-    print('Этот месяц относится к времени года - Зима')
-elif number_of_month == 3 or 4 or 5:
-    print('Этот месяц относится к времени года - Весна')
-elif number_of_month == 6 or 7 or 8:
-    print('Этот месяц относится к времени года - Лето')
-elif number_of_month == 9 or 10 or 11:
-    print('Этот месяц относится к времени года - Осень')
+# number_of_month = int(input('Введите порядковый номер месяца '))
+# if number_of_month == 12 or number_of_month == 1 or number_of_month == 2:
+#     print('Этот месяц относится к времени года - Зима')
+# elif number_of_month == 3 or number_of_month == 4 or number_of_month == 5:
+#     print('Этот месяц относится к времени года - Весна')
+# elif number_of_month == 6 or number_of_month == 7 or number_of_month == 8:
+#     print('Этот месяц относится к времени года - Лето')
+# elif number_of_month == 9 or number_of_month == 10 or number_of_month == 11:
+#     print('Этот месяц относится к времени года - Осень')
+
+# number_of_month = int(input('Введите порядковый номер месяца '))
+# if number_of_month == 12:
+#     print('Этот месяц относится к времени года - Зима')
+# elif number_of_month == 1:
+#     print('Этот месяц относится к времени года - Зима')
+# elif number_of_month == 2:
+#     print('Этот месяц относится к времени года - Зима')
+# elif number_of_month == 3:
+#     print('Этот месяц относится к времени года - Весна')
+# elif number_of_month == 4:
+#     print('Этот месяц относится к времени года - Весна')
+# elif number_of_month == 5:
+#     print('Этот месяц относится к времени года - Весна')
+# elif number_of_month == 6:
+#     print('Этот месяц относится к времени года - Лето')
+# elif number_of_month == 7:
+#     print('Этот месяц относится к времени года - Лето')
+# elif number_of_month == 8:
+#     print('Этот месяц относится к времени года - Лето')
+# elif number_of_month == 9:
+#     print('Этот месяц относится к времени года - Осень')
+# elif number_of_month == 10:
+#     print('Этот месяц относится к времени года - Осень')
+# elif number_of_month == 11:
+#     print('Этот месяц относится к времени года - Осень')
+
+
+#задача5
+#Пользователь делает вклад в размере a рублей сроком на 
+#years лет под 10% годовых (каждый год размер его вклада 
+#увеличивается на 10%. Эти деньги прибавляются к сумме вклада, и 
+#на них в следующем году тоже будут проценты). Написать функцию 
+#bank, принимающая аргументы a и years, и возвращающую сумму, 
+#которая будет на счету пользователя.
+
+
+# a = int(input('Введите сумму вклада '))
+# years = int(input('Введите срок, на который рассчитан вклад '))
+# i = 10
+# s = a * (1 + ((10 * years) / 100)) ** years 
+# print(s)
